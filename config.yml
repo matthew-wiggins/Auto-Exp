@@ -1,0 +1,23 @@
+settings:
+  #Should exp be given to player instead of fix their item with mending? (Default: false)
+  ignore-mending: false
+
+#You can disable this message by making it ''. (Placeholders: {exp} {reason} {total})
+received-exp: '&a&l+ {exp} EXP &7({reason}) [{total} Total EXP]'
+
+no-permission: '&4&l[!] &cYou do not have permission to do this!'
+only-players: '&4&l[!] &cOnly players can use this command!'
+invalid-player: '&4&l[!] &cYou have entered an invalid player!'
+commands:
+  error: '&4&l[!] &cUnknown command; type "&4/autoexp help&c" for more information!'
+  help:
+    - '&6&l[!] &eAutoExp Help:'
+    - '  &e/autoexp help &f- &7Shows this help message'
+    - '  &e/autoexp reload &f- &7Reload the plugin''s files'
+    - '  &e/autoexp <player> &f- &7Toggles the player''s AutoExp'
+  reload:
+    success: '&6&l[!] &eYou have successfully reloaded AutoExp!'
+  toggle:
+    enabled: '&6&l[!] &eYou will now automatically pickup exp!'
+    disabled: '&4&l[!] &cYou will no longer automatically pickup exp!'
+    admin-toggle: '&6&l[!] &eYou have &6{status} {player}&e''s AutoExp!'
