@@ -1,11 +1,15 @@
 settings:
+  enabled-worlds:
+    - world
+    - world_nether
+    - world_the_end
   toggle-features:
     blocks: true
     breeding: true
     fishing: true
     killing-mobs: true
     smelting: true
-    expbottle: ture
+    expbottle: true
   #Should exp be given to player instead of fix their item with mending? (Default: false)
   ignore-mending: false
 
