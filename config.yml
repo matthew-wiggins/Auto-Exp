@@ -1,4 +1,11 @@
 settings:
+  toggle-features:
+    blocks: true
+    breeding: true
+    fishing: true
+    killing-mobs: true
+    smelting: true
+    expbottle: ture
   #Should exp be given to player instead of fix their item with mending? (Default: false)
   ignore-mending: false
 
